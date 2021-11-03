@@ -24,7 +24,7 @@ const ProductPage = () => {
   });
 
   return (
-    <div>
+    <div className="products">
       <ul>{listItems}</ul>
     </div>
   );

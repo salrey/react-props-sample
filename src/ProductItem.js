@@ -8,9 +8,11 @@ class ProductItem extends Component {
     render() {
         const { manufacturer, name, price } = this.props
         return (
-          <li>
-            {manufacturer} {name} - ${price}
-          </li>
+          <div className="productItem">
+            <li>
+              {manufacturer} {name} - ${price}
+            </li>
+          </div>
         )
     }
   }
