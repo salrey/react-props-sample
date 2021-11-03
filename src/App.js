@@ -2,7 +2,6 @@ import './App.css';
 import ProductPage from './ProductPage';
 import { Component } from 'react';
 import UserProfile from './UserProfile';
-import { unstable_renderSubtreeIntoContainer } from 'react-dom';
 
 class App extends Component {
 
